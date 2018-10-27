@@ -2,6 +2,37 @@ input {
   border: solid 1px black;
 }
 
+h1{
+  margin-left: 35px;
+}
+
+#wrapper-product {
+  height: 10px;
+  align-items: stretch;
+}
+
+.product-name {
+  margin-left: 20px;
+  float: left;
+  padding: 20px;
+
+}
+
+.cost {
+  float: left;
+  padding: 20px;
+}
+
+.units {
+  float: left;
+  padding: 20px;
+}
+
+.total-price {
+  float: left;
+  padding: 20px;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -22,18 +53,24 @@ input {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
+  height: 10px;
 }
 
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 70px;
+    margin-right: 70px; 
+    text-align: center;
 }
 
 .btn-delete {
     color: #fff;
     background-color: #CF000F;
     border-color: #CF000F;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .quantity {
